@@ -1,5 +1,5 @@
 {
-  "version": "V6.6A-light-for-V6.6B",
+  "version": "V6.6A-light-for-V6.7",
   "generated_at": "2026-06-20T19:42:04",
   "conclusion": "宏观判断置信度不足；本期宏观数据仅作为市场环境展示，不进入评分，不改变候选池结论。",
   "metrics": [
@@ -532,5 +532,5 @@
     ]
   },
   "full_macro_cache_included": false,
-  "note": "Full macro API cache is intentionally excluded from the V6.6B main workbench and deploy-ready package."
+  "note": "Full macro API cache is intentionally excluded from the V6.7 main workbench and deploy-ready package."
 }

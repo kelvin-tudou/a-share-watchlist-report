@@ -5,6 +5,7 @@
   "contains_local_config": false,
   "contains_raw_cache": false,
   "contains_absolute_path": false,
+  "contains_feedback_entry": false,
   "large_files": [],
   "text_hits": [],
   "file_count": 12,
