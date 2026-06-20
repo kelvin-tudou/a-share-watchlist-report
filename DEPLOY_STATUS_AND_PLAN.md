@@ -2,7 +2,7 @@
 
 ## Current Status
 
-- public_url: 尚未部署到公网
+- public_url: https://kelvin-tudou.github.io/a-share-watchlist-report/
 - package_complete: yes
 - upload_scope: `index.html`, `manifest.json`, `assets/`, `data/`
 - local_absolute_paths: no expected
