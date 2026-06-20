@@ -1,0 +1,19 @@
+{
+  "version": "V6.6B",
+  "generated_at": "2026-06-20 20:10:55",
+  "readonly": true,
+  "sqlite_write": false,
+  "database_version_write": false,
+  "scoring_change": false,
+  "candidate_label_change": false,
+  "web_fallback_used": false,
+  "public_url": "",
+  "files": [
+    "index.html",
+    "assets/app.js",
+    "assets/style.css",
+    "data/report_latest.json",
+    "data/macro_snapshot_v6_6b.json",
+    "data/latest.csv"
+  ]
+}

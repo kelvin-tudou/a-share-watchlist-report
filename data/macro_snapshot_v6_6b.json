@@ -1,0 +1,536 @@
+{
+  "version": "V6.6A-light-for-V6.6B",
+  "generated_at": "2026-06-20T19:42:04",
+  "conclusion": "宏观判断置信度不足；本期宏观数据仅作为市场环境展示，不进入评分，不改变候选池结论。",
+  "metrics": [
+    {
+      "metric_id": "index_pct_chg_000001_sh",
+      "label": "000001.SH 指数涨跌",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "index_daily",
+      "as_of": "20260616",
+      "status": "ok",
+      "value": -0.1118,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Only displays local index_daily coverage; not used in scoring."
+    },
+    {
+      "metric_id": "index_close_000001_sh",
+      "label": "000001.SH 指数收盘",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "index_daily",
+      "as_of": "20260616",
+      "status": "ok",
+      "value": 4091.8917,
+      "unit": "点",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Only displays local index_daily coverage; not used in scoring."
+    },
+    {
+      "metric_id": "index_pct_chg_000300_sh",
+      "label": "000300.SH 指数涨跌",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "index_daily",
+      "as_of": "20260616",
+      "status": "ok",
+      "value": -0.1529,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Only displays local index_daily coverage; not used in scoring."
+    },
+    {
+      "metric_id": "index_close_000300_sh",
+      "label": "000300.SH 指数收盘",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "index_daily",
+      "as_of": "20260616",
+      "status": "ok",
+      "value": 4884.2322,
+      "unit": "点",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Only displays local index_daily coverage; not used in scoring."
+    },
+    {
+      "metric_id": "market_median_pe_ttm",
+      "label": "样本市盈率中位数",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "market_daily_basic",
+      "as_of": "20260617",
+      "status": "ok",
+      "value": 7.19,
+      "unit": "倍",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Local market_daily_basic coverage is a display proxy, not a full-market valuation score."
+    },
+    {
+      "metric_id": "market_median_pb",
+      "label": "样本市净率中位数",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "market_daily_basic",
+      "as_of": "20260617",
+      "status": "ok",
+      "value": 1.63,
+      "unit": "倍",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Local market_daily_basic coverage is a display proxy, not a full-market valuation score."
+    },
+    {
+      "metric_id": "market_total_mv_sample",
+      "label": "样本总市值合计",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "market_daily_basic",
+      "as_of": "20260617",
+      "status": "ok",
+      "value": 290532321.76,
+      "unit": "接口原单位待复核",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Tushare daily_basic/market_daily_basic total_mv unit must be confirmed before display scaling; display proxy only."
+    },
+    {
+      "metric_id": "sample_market_breadth_up_count",
+      "label": "样本市场宽度：上涨家数",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "stock_daily",
+      "as_of": "20260617",
+      "status": "ok",
+      "value": 0,
+      "unit": "家",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Only based on current local stock_daily coverage; does not represent the full A-share market."
+    },
+    {
+      "metric_id": "sample_market_breadth_down_count",
+      "label": "样本市场宽度：下跌家数",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "stock_daily",
+      "as_of": "20260617",
+      "status": "ok",
+      "value": 8,
+      "unit": "家",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Only based on current local stock_daily coverage; does not represent the full A-share market."
+    },
+    {
+      "metric_id": "sample_market_breadth_flat_count",
+      "label": "样本市场宽度：平盘家数",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "stock_daily",
+      "as_of": "20260617",
+      "status": "ok",
+      "value": 0,
+      "unit": "家",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Only based on current local stock_daily coverage; does not represent the full A-share market."
+    },
+    {
+      "metric_id": "sample_market_breadth_up_ratio",
+      "label": "样本市场宽度：上涨占比",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "stock_daily",
+      "as_of": "20260617",
+      "status": "ok",
+      "value": 0.0,
+      "unit": "比例",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Only based on current local stock_daily coverage; display only and not a full-market breadth indicator."
+    },
+    {
+      "metric_id": "market_turnover_amount_sample",
+      "label": "样本成交额合计",
+      "category": "market",
+      "source": "local SQLite",
+      "tushare_endpoint": "stock_daily",
+      "as_of": "20260617",
+      "status": "ok",
+      "value": 9633609.3,
+      "unit": "接口原单位待复核",
+      "used_in_scoring": false,
+      "data_quality": "partial_local_cache",
+      "limitations": "Tushare daily amount unit must be confirmed before display scaling; derived from local stock_daily coverage only."
+    },
+    {
+      "metric_id": "gdp_yoy",
+      "label": "GDP同比",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_gdp",
+      "as_of": "2025Q4",
+      "status": "ok",
+      "value": 5.0,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "Uses quarter/gdp/gdp_yoy directly. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "gdp_total",
+      "label": "GDP现价总量",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_gdp",
+      "as_of": "2025Q4",
+      "status": "ok",
+      "value": 1401879.2,
+      "unit": "亿元",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "Uses quarter/gdp/gdp_yoy directly. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "cpi_yoy",
+      "label": "CPI同比",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_cpi",
+      "as_of": "202605",
+      "status": "ok",
+      "value": 1.2,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "Maps national CPI YoY/MoM from nt_yoy/nt_mom. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "cpi_mom",
+      "label": "CPI环比",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_cpi",
+      "as_of": "202605",
+      "status": "ok",
+      "value": -0.1,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "Maps national CPI YoY/MoM from nt_yoy/nt_mom. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "ppi_yoy",
+      "label": "PPI同比",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_ppi",
+      "as_of": "202605",
+      "status": "ok",
+      "value": 3.9,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "cn_ppi mapping: headline PPI uses ppi_yoy and ppi_mom; prior probe expected ppi_mp, but actual fields are ppi_mp_yoy/ppi_mp_mom for production-material sub-series. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "ppi_mom",
+      "label": "PPI环比",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_ppi",
+      "as_of": "202605",
+      "status": "ok",
+      "value": 0.5,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "cn_ppi mapping: headline PPI uses ppi_yoy and ppi_mom; prior probe expected ppi_mp, but actual fields are ppi_mp_yoy/ppi_mp_mom for production-material sub-series. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "manufacturing_pmi",
+      "label": "制造业PMI",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_pmi",
+      "as_of": "202605",
+      "status": "ok",
+      "value": 50.0,
+      "unit": "点",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "cn_pmi uses uppercase coded fields. MONTH is the date field; PMI010000 is mapped to headline manufacturing PMI, PMI010100 to production sub-index pending dictionary review. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "production_pmi",
+      "label": "生产指数PMI",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_pmi",
+      "as_of": "202605",
+      "status": "ok",
+      "value": 51.1,
+      "unit": "点",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "cn_pmi uses uppercase coded fields. MONTH is the date field; PMI010000 is mapped to headline manufacturing PMI, PMI010100 to production sub-index pending dictionary review. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "m2_yoy",
+      "label": "M2同比",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_m",
+      "as_of": "202604",
+      "status": "ok",
+      "value": 8.6,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "Uses m2_yoy/m1_yoy directly. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "m1_yoy",
+      "label": "M1同比",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "cn_m",
+      "as_of": "202604",
+      "status": "ok",
+      "value": 5.0,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "Uses m2_yoy/m1_yoy directly. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "social_financing_monthly",
+      "label": "社融当月增量",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "sf_month",
+      "as_of": "202605",
+      "status": "ok",
+      "value": 20293.0,
+      "unit": "接口原单位待复核",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "sf_month does not return YoY in probe. V6.6A displays original inc_month/stk_endval only; units require Tushare field-document confirmation and YoY derivation is deferred. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "social_financing_stock",
+      "label": "社融存量",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "sf_month",
+      "as_of": "202605",
+      "status": "ok",
+      "value": 458.81,
+      "unit": "接口原单位待复核",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "sf_month does not return YoY in probe. V6.6A displays original inc_month/stk_endval only; units require Tushare field-document confirmation and YoY derivation is deferred. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "lpr_1y",
+      "label": "LPR 1年",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "shibor_lpr",
+      "as_of": "20260320",
+      "status": "ok",
+      "value": 3.0,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "shibor_lpr maps 1Y/5Y LPR from fields named 1y and 5y. Display only; not used in scoring."
+    },
+    {
+      "metric_id": "lpr_5y",
+      "label": "LPR 5年",
+      "category": "macro",
+      "source": "Tushare",
+      "tushare_endpoint": "shibor_lpr",
+      "as_of": "20260320",
+      "status": "ok",
+      "value": 3.5,
+      "unit": "%",
+      "used_in_scoring": false,
+      "data_quality": "ok",
+      "limitations": "shibor_lpr maps 1Y/5Y LPR from fields named 1y and 5y. Display only; not used in scoring."
+    }
+  ],
+  "data_source_compliance": [
+    {
+      "source": "Tushare",
+      "tushare_endpoint": "cn_gdp",
+      "params": {
+        "limit": 120,
+        "offset": 0
+      },
+      "returned_rows": 120,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "Uses quarter/gdp/gdp_yoy directly."
+    },
+    {
+      "source": "Tushare",
+      "tushare_endpoint": "cn_cpi",
+      "params": {
+        "limit": 120,
+        "offset": 0
+      },
+      "returned_rows": 120,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "Maps national CPI YoY/MoM from nt_yoy/nt_mom."
+    },
+    {
+      "source": "Tushare",
+      "tushare_endpoint": "cn_ppi",
+      "params": {
+        "limit": 120,
+        "offset": 0
+      },
+      "returned_rows": 120,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "cn_ppi mapping: headline PPI uses ppi_yoy and ppi_mom; prior probe expected ppi_mp, but actual fields are ppi_mp_yoy/ppi_mp_mom for production-material sub-series."
+    },
+    {
+      "source": "Tushare",
+      "tushare_endpoint": "cn_pmi",
+      "params": {
+        "limit": 120,
+        "offset": 0
+      },
+      "returned_rows": 120,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "cn_pmi uses uppercase coded fields. MONTH is the date field; PMI010000 is mapped to headline manufacturing PMI, PMI010100 to production sub-index pending dictionary review."
+    },
+    {
+      "source": "Tushare",
+      "tushare_endpoint": "cn_m",
+      "params": {
+        "limit": 120,
+        "offset": 0
+      },
+      "returned_rows": 120,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "Uses m2_yoy/m1_yoy directly."
+    },
+    {
+      "source": "Tushare",
+      "tushare_endpoint": "sf_month",
+      "params": {
+        "limit": 120,
+        "offset": 0
+      },
+      "returned_rows": 120,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "sf_month does not return YoY in probe. V6.6A displays original inc_month/stk_endval only; units require Tushare field-document confirmation and YoY derivation is deferred."
+    },
+    {
+      "source": "Tushare",
+      "tushare_endpoint": "shibor_lpr",
+      "params": {
+        "limit": 120,
+        "offset": 0
+      },
+      "returned_rows": 120,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "shibor_lpr maps 1Y/5Y LPR from fields named 1y and 5y."
+    },
+    {
+      "source": "local SQLite",
+      "tushare_endpoint": "index_daily",
+      "params": {},
+      "returned_rows": 3957,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "Read-only local reuse for display."
+    },
+    {
+      "source": "local SQLite",
+      "tushare_endpoint": "market_daily_basic",
+      "params": {},
+      "returned_rows": 10560,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "Read-only local reuse for display."
+    },
+    {
+      "source": "local SQLite",
+      "tushare_endpoint": "stock_daily",
+      "params": {},
+      "returned_rows": 10560,
+      "status": "ok",
+      "used_in_scoring": false,
+      "web_fallback_used": false,
+      "field_notes": "Read-only local reuse for display."
+    }
+  ],
+  "data_quality_audit": {
+    "version": "V6.6A",
+    "generated_at": "2026-06-20T19:42:04",
+    "sqlite_write": false,
+    "database_version_write": false,
+    "scoring_change": false,
+    "candidate_label_change": false,
+    "web_fallback_used": false,
+    "local_tables": [
+      {
+        "dataset": "index_daily",
+        "row_count": 3957,
+        "latest_date": "20260616",
+        "source": "local SQLite read-only"
+      },
+      {
+        "dataset": "market_daily_basic",
+        "row_count": 10560,
+        "latest_date": "20260617",
+        "source": "local SQLite read-only"
+      },
+      {
+        "dataset": "stock_daily",
+        "row_count": 10560,
+        "latest_date": "20260617",
+        "source": "local SQLite read-only"
+      }
+    ],
+    "metric_status_counts": {
+      "ok": 26,
+      "missing": 0
+    },
+    "limitations": [
+      "Macro data is display-only and does not affect scoring or candidate labels.",
+      "Local breadth/valuation indicators are derived from existing local cache coverage and may not represent the full A-share universe.",
+      "cn_pmi coded fields require a formal field dictionary before stronger interpretation.",
+      "sf_month units and YoY derivation are deferred pending Tushare field documentation confirmation.",
+      "market_total_mv_sample and market_turnover_amount_sample units are displayed as interface original unit pending confirmation."
+    ]
+  },
+  "full_macro_cache_included": false,
+  "note": "Full macro API cache is intentionally excluded from the V6.6B main workbench and deploy-ready package."
+}

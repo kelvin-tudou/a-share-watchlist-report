@@ -1,0 +1,12 @@
+{
+  "contains_token": false,
+  "contains_sqlite": false,
+  "contains_data_root_json": false,
+  "contains_local_config": false,
+  "contains_raw_cache": false,
+  "contains_absolute_path": false,
+  "large_files": [],
+  "text_hits": [],
+  "file_count": 12,
+  "public_ready": true
+}
