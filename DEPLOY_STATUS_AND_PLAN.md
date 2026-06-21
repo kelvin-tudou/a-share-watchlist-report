@@ -1,9 +1,9 @@
-# V6.7 Deploy Status And Plan
+# V6.8 Deploy Status And Plan
 
 - public_url: https://kelvin-tudou.github.io/a-share-watchlist-report/
 - package_complete: yes
 - upload_scope: `index.html`, `manifest.json`, `assets/`, `data/`
+- token/sqlite/private config/raw cache: absent by deploy scan
 - local_absolute_paths: no expected
-- token/sqlite/cache/private machine config: absent by deploy scan
 
-发布模式：独立 public GitHub Pages 仓库，仅上传 deploy-ready 静态文件。朋友反馈通过微信，不接入网页表单。
+发布方式：独立 public GitHub Pages 仓库，仅放 deploy-ready 静态报告。

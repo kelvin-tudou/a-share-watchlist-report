@@ -1,0 +1,73 @@
+{
+  "version": "V6.8",
+  "generated_at": "2026-06-21 10:25:16",
+  "sqlite_open_mode": "read-only",
+  "candidate_count": 357,
+  "modules": {
+    "smart_money_minimal": {
+      "available": [
+        "repurchase",
+        "stock_hsgt",
+        "institution_survey",
+        "shareholder_count"
+      ],
+      "missing": [
+        "fund_basic",
+        "fund_portfolio",
+        "fund_manager",
+        "fund_nav",
+        "top10_holders",
+        "top10_floatholders"
+      ],
+      "judgement": "只能形成弱信号或未接入状态，不能识别主动基金完整认可。"
+    },
+    "financial_sector_model": {
+      "available": [
+        "financial_indicator",
+        "balance_sheet",
+        "income_statement",
+        "annual_metrics"
+      ],
+      "missing": [
+        "bank_npl",
+        "bank_provision",
+        "capital_adequacy",
+        "net_interest_margin",
+        "insurance_embedded_value"
+      ],
+      "judgement": "金融企业框架可展示，但银行/保险/券商专属关键字段仍待补。"
+    },
+    "cyclical_normalization": {
+      "available": [
+        "annual_metrics",
+        "financial_indicator",
+        "income_statement",
+        "cash_flow_statement"
+      ],
+      "missing": [
+        "commodity_price_cycle",
+        "industry_capacity",
+        "utilization_rate"
+      ],
+      "judgement": "可对少量已有多年财务样本做保守历史均值展示，不进入评分。"
+    },
+    "review_snapshot": {
+      "available": [
+        "report_latest.json"
+      ],
+      "missing": [],
+      "judgement": "可建立候选池复盘基线；下一期开始才能判断标签迁移。"
+    }
+  },
+  "can_complete_now": [
+    "基于现有 repurchase/stock_hsgt/institution_survey 建立 smart money 弱信号展示层。",
+    "基于行业和模型标签为金融股显示专属模型待补说明，避免普通企业 FCF 误导。",
+    "基于 annual_metrics 对已有多年样本计算周期股历史均值估值展示；缺样本时明确待补。",
+    "写出候选池复盘 snapshot JSON，作为下一期对比基线。"
+  ],
+  "must_not_infer": [
+    "不把宽基 ETF 被动覆盖算作 smart money。",
+    "不把主动基金、社保、养老金、保险、QFII 或前十大股东信号伪造为已接入。",
+    "不使用宏观或资金信号上调候选标签。"
+  ]
+}

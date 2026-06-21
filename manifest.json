@@ -1,20 +1,22 @@
 {
-  "version": "V6.7",
-  "generated_at": "2026-06-20 23:24:17",
+  "version": "V6.8",
+  "generated_at": "2026-06-21 10:25:15",
   "readonly": true,
   "sqlite_write": false,
   "database_version_write": false,
   "scoring_change": false,
   "candidate_label_change": false,
-  "display_label_change": true,
+  "display_layer_change": true,
   "web_fallback_used": false,
   "public_url": "https://kelvin-tudou.github.io/a-share-watchlist-report/",
+  "sqlite_hash_before": "4e0d3715a1b071eab3ac69424c5d1144edc8f8fb4416e7b97fe1758695576064",
+  "sqlite_hash_after": "4e0d3715a1b071eab3ac69424c5d1144edc8f8fb4416e7b97fe1758695576064",
   "files": [
     "index.html",
     "assets/app.js",
     "assets/style.css",
     "data/report_latest.json",
-    "data/macro_snapshot_v6_7.json",
+    "data/macro_snapshot_v6_8.json",
     "data/latest.csv"
   ]
 }
