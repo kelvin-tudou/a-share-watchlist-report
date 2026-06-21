@@ -1,0 +1,20 @@
+{
+  "status": "与上一期相比，候选标签未发生变化；本期主要是展示和体验优化。",
+  "changes": {
+    "new": 0,
+    "removed": 0,
+    "label_changed": 0,
+    "label_upgraded": 0,
+    "label_downgraded": 0,
+    "score_changed": 0,
+    "risk_changed": 0,
+    "data_gap_changed": 0
+  },
+  "baseline_version": "V6.8F Bank Data Fetch Existing Path Preview",
+  "current_version": "V7.0 Stable Preview",
+  "trade_date": "20260615",
+  "snapshot_file": "a_share_review_snapshot_v6_8f_bank_live_fetch_existing_path_preview_20260615.json",
+  "comparison_source": "a_share_review_snapshot_v6_8f_bank_data_fetch_existing_path_preview_20260615.json",
+  "limitations": [],
+  "used_in_scoring": false
+}

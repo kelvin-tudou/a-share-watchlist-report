@@ -1,0 +1,160 @@
+{
+  "version": "V7.0 Stable Preview",
+  "generated_at": "2026-06-21 21:19:34",
+  "sample_count": 118,
+  "normalized_pe_computable_count": 0,
+  "data_insufficient_count": 118,
+  "not_computable_count": 0,
+  "normalized_pe_median": null,
+  "fetch_mode": "full-market query, then local filter current cyclical/public-utility candidates",
+  "periods": [
+    "20201231",
+    "20211231",
+    "20221231",
+    "20231231",
+    "20241231"
+  ],
+  "interfaces": {
+    "income": {
+      "api_name": "income",
+      "fetch_mode": "full-market query, then local filter",
+      "params": {},
+      "attempted": true,
+      "successful": false,
+      "source": "error",
+      "row_count": 0,
+      "matched_cyclical_rows": 0,
+      "target_period_matched_rows": 0,
+      "fields": [],
+      "field_presence": {},
+      "target_periods": [
+        "20201231",
+        "20211231",
+        "20221231",
+        "20231231",
+        "20241231"
+      ],
+      "period_counts_for_cyclical": {},
+      "errors": [
+        {
+          "error_type": "network_error",
+          "message": "network_error: HTTP Error 500: Internal Server Error body={\"error\":\"服务器内部错误\",\"detail\":\"Invalid parameters: only support single-stock query or full-market query\"}"
+        }
+      ]
+    },
+    "cashflow": {
+      "api_name": "cashflow",
+      "fetch_mode": "full-market query, then local filter",
+      "params": {},
+      "attempted": true,
+      "successful": false,
+      "source": "error",
+      "row_count": 0,
+      "matched_cyclical_rows": 0,
+      "target_period_matched_rows": 0,
+      "fields": [],
+      "field_presence": {},
+      "target_periods": [
+        "20201231",
+        "20211231",
+        "20221231",
+        "20231231",
+        "20241231"
+      ],
+      "period_counts_for_cyclical": {},
+      "errors": [
+        {
+          "error_type": "network_error",
+          "message": "network_error: HTTP Error 500: Internal Server Error body={\"error\":\"服务器内部错误\",\"detail\":\"Invalid parameters: only support single-stock query or full-market query\"}"
+        }
+      ]
+    },
+    "fina_indicator": {
+      "api_name": "fina_indicator",
+      "fetch_mode": "full-market query, then local filter",
+      "params": {},
+      "attempted": true,
+      "successful": true,
+      "source": "api",
+      "row_count": 0,
+      "matched_cyclical_rows": 0,
+      "target_period_matched_rows": 0,
+      "fields": [],
+      "field_presence": {
+        "ts_code": false,
+        "period": false,
+        "end_date": false,
+        "ann_date": false,
+        "n_income_attr_p": false,
+        "profit_dedt": false,
+        "n_cashflow_act": false,
+        "free_cashflow": false
+      },
+      "target_periods": [
+        "20201231",
+        "20211231",
+        "20221231",
+        "20231231",
+        "20241231"
+      ],
+      "period_counts_for_cyclical": {},
+      "errors": []
+    }
+  },
+  "status_counts": {
+    "数据不足": 118
+  },
+  "period_batch_fetch_attempted": true,
+  "period_batch_fetch_successful": false,
+  "full_market_fetch_attempted": true,
+  "full_market_fetch_successful": false,
+  "fetch_audit_conclusion": "周期/公用事业 normalized PE 取数路径审计已完成，但数据闭环未完成；period batch 与 full-market query 已验证不可用，single-stock 小批量 probe 放入 V7.1。",
+  "industry_distribution": {
+    "石油开采": 4,
+    "铝": 5,
+    "水运": 5,
+    "火力发电": 13,
+    "供气供热": 6,
+    "新型电力": 1,
+    "水务": 5,
+    "工程机械": 3,
+    "水力发电": 2,
+    "港口": 6,
+    "环境保护": 10,
+    "建筑工程": 17,
+    "特种钢": 3,
+    "电信运营": 3,
+    "普钢": 5,
+    "水泥": 3,
+    "路桥": 13,
+    "钢加工": 2,
+    "铁路": 4,
+    "煤炭开采": 5,
+    "区域地产": 2,
+    "石油加工": 1
+  },
+  "field_coverage": {},
+  "profit_cycle_position_counts": {
+    "数据不足": 118
+  },
+  "local_tables": {},
+  "tushare_client": "skills/tushare/scripts/tushare.py",
+  "web_fallback_used": false,
+  "new_path_created": false,
+  "new_proxy_created": false,
+  "new_gateway_created": false,
+  "sqlite_write": false,
+  "scoring_change": false,
+  "candidate_label_change": false,
+  "sidecar": {
+    "source_json": "V7_0_CYCLICAL_NORMALIZED_AUDIT_SAMPLE.json",
+    "source_csv": "V7_0_CYCLICAL_NORMALIZED_AUDIT_FIELDS.csv",
+    "source_audit": "V7_0_CYCLICAL_NORMALIZED_AUDIT.md",
+    "exists": true
+  },
+  "limitations": [
+    "V7.0 只完成周期/公用事业 normalized PE 取数路径审计，数据闭环未完成。",
+    "period batch 与 full-market query 已验证不可用；single-stock 小批量 probe 放入 V7.1。",
+    "所有 normalized 指标 used_in_scoring=false，不改变评分和标签。"
+  ]
+}

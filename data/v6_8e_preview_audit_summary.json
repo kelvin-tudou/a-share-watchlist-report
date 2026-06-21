@@ -1,6 +1,6 @@
 {
-  "version": "V6.8B",
-  "generated_at": "2026-06-21 14:45:24",
+  "version": "V7.0 Stable Preview",
+  "generated_at": "2026-06-21 21:19:34",
   "sqlite_open_mode": "read-only",
   "candidate_count": 357,
   "modules": {

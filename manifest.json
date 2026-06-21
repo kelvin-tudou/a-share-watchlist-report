@@ -1,6 +1,6 @@
 {
-  "version": "V6.8B",
-  "generated_at": "2026-06-21 14:45:24",
+  "version": "V7.0 Stable Preview",
+  "generated_at": "2026-06-21 21:19:34",
   "readonly": true,
   "sqlite_write": false,
   "database_version_write": false,
@@ -8,7 +8,7 @@
   "candidate_label_change": false,
   "display_layer_change": true,
   "web_fallback_used": false,
-  "public_url": "https://kelvin-tudou.github.io/a-share-watchlist-report/",
+  "public_url": "",
   "sqlite_hash_before": "4e0d3715a1b071eab3ac69424c5d1144edc8f8fb4416e7b97fe1758695576064",
   "sqlite_hash_after": "4e0d3715a1b071eab3ac69424c5d1144edc8f8fb4416e7b97fe1758695576064",
   "files": [
@@ -16,7 +16,18 @@
     "assets/app.js",
     "assets/style.css",
     "data/report_latest.json",
-    "data/macro_snapshot_v6_8b.json",
-    "data/latest.csv"
+    "data/macro_snapshot_v6_8e_macro_closed_loop.json",
+    "data/bank_min_model_v6_8f.json",
+    "data/latest.csv",
+    "V7_0_DATA_LAYER_AUDIT.md",
+    "V7_0_MACRO_THREE_LAYER_AUDIT.md",
+    "V7_0_BANK_READONLY_AUDIT.md",
+    "V6_8F_BANK_LIVE_FETCH_EXISTING_PATH_AUDIT.md",
+    "V6_8F_BANK_LIVE_FETCH_FIELDS.csv",
+    "data/V6_8F_BANK_LIVE_FETCH_SAMPLE.json",
+    "V7_0_CYCLICAL_NORMALIZED_AUDIT.md",
+    "V7_0_CYCLICAL_NORMALIZED_AUDIT_FIELDS.csv",
+    "data/V7_0_CYCLICAL_NORMALIZED_AUDIT_SAMPLE.json",
+    "V7_0_RELEASE_NOTES.md"
   ]
 }
