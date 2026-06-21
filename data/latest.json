@@ -1,7 +1,7 @@
 {
-  "version": "V6.8",
+  "version": "V6.8A",
   "report": "data/report_latest.json",
-  "macro": "data/macro_snapshot_v6_8.json",
+  "macro": "data/macro_snapshot_v6_8a.json",
   "csv": "data/latest.csv",
   "used_in_scoring": false
 }

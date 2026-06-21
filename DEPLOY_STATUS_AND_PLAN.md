@@ -1,4 +1,4 @@
-# V6.8 Deploy Status And Plan
+# V6.8A Deploy Status And Plan
 
 - public_url: https://kelvin-tudou.github.io/a-share-watchlist-report/
 - package_complete: yes

@@ -1,6 +1,6 @@
 {
-  "version": "V6.8",
-  "generated_at": "2026-06-21 10:25:15",
+  "version": "V6.8A",
+  "generated_at": "2026-06-21 11:47:54",
   "readonly": true,
   "sqlite_write": false,
   "database_version_write": false,
@@ -16,7 +16,7 @@
     "assets/app.js",
     "assets/style.css",
     "data/report_latest.json",
-    "data/macro_snapshot_v6_8.json",
+    "data/macro_snapshot_v6_8a.json",
     "data/latest.csv"
   ]
 }

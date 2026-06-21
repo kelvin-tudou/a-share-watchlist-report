@@ -1,5 +1,5 @@
 {
-  "version": "V6.6A-light-for-V6.7",
+  "version": "宏观展示缓存",
   "generated_at": "2026-06-20T19:42:04",
   "conclusion": "宏观判断置信度不足；本期宏观数据仅作为市场环境展示，不进入评分，不改变候选池结论。",
   "metrics": [
@@ -323,7 +323,7 @@
       "unit": "接口原单位待复核",
       "used_in_scoring": false,
       "data_quality": "ok",
-      "limitations": "sf_month does not return YoY in probe. V6.6A displays original inc_month/stk_endval only; units require Tushare field-document confirmation and YoY derivation is deferred. Display only; not used in scoring."
+      "limitations": "sf_month does not return YoY in probe. 宏观展示缓存 displays original inc_month/stk_endval only; units require Tushare field-document confirmation and YoY derivation is deferred. Display only; not used in scoring."
     },
     {
       "metric_id": "social_financing_stock",
@@ -337,7 +337,7 @@
       "unit": "接口原单位待复核",
       "used_in_scoring": false,
       "data_quality": "ok",
-      "limitations": "sf_month does not return YoY in probe. V6.6A displays original inc_month/stk_endval only; units require Tushare field-document confirmation and YoY derivation is deferred. Display only; not used in scoring."
+      "limitations": "sf_month does not return YoY in probe. 宏观展示缓存 displays original inc_month/stk_endval only; units require Tushare field-document confirmation and YoY derivation is deferred. Display only; not used in scoring."
     },
     {
       "metric_id": "lpr_1y",
@@ -445,7 +445,7 @@
       "status": "ok",
       "used_in_scoring": false,
       "web_fallback_used": false,
-      "field_notes": "sf_month does not return YoY in probe. V6.6A displays original inc_month/stk_endval only; units require Tushare field-document confirmation and YoY derivation is deferred."
+      "field_notes": "sf_month does not return YoY in probe. 宏观展示缓存 displays original inc_month/stk_endval only; units require Tushare field-document confirmation and YoY derivation is deferred."
     },
     {
       "source": "Tushare",
@@ -492,7 +492,7 @@
     }
   ],
   "data_quality_audit": {
-    "version": "V6.6A",
+    "version": "宏观展示缓存",
     "generated_at": "2026-06-20T19:42:04",
     "sqlite_write": false,
     "database_version_write": false,
@@ -532,5 +532,5 @@
     ]
   },
   "full_macro_cache_included": false,
-  "note": "Full macro API cache is intentionally excluded from the V6.7 main workbench and deploy-ready package."
+  "note": "Full macro API cache is intentionally excluded from the 当前版本 main workbench and deploy-ready package."
 }
