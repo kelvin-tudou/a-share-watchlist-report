@@ -1,8 +1,8 @@
 {
-  "version": "V6.8A Web App",
-  "report_version": "V6.8A Web App",
+  "version": "V6.8B Web App",
+  "report_version": "V6.8B Web App",
   "trade_date": "20260615",
-  "generated_at": "2026-06-21 13:11:35",
+  "generated_at": "2026-06-21 14:45:24",
   "readonly": true,
   "source_version": "当前版本 Web App",
   "display_labels": [
@@ -32,7 +32,7 @@
     }
   ],
   "summary": {
-    "title": "V6.8A 本期核心结论",
+    "title": "V6.8B 本期核心结论",
     "counts": {
       "待复核深研候选": 10,
       "仅适合跟踪": 17,
@@ -53,9 +53,9 @@
       "reviewable_rate": 7.6,
       "reviewable_text": "可继续人工复核/跟踪样本占比约 7.6%，不是基础数据完整率。",
       "data_completeness": "已拆分财报、现金流、分红、估值、行业专属和资金信号覆盖；不再把所有阻塞项笼统叫待补数据。",
-      "smart_money_evaluation": "V6.8A 已建立只读弱信号展示层；主动基金和长期资金仍未系统接入，不上调标签。",
+      "smart_money_evaluation": "V6.8B 延续只读弱信号展示层；主动基金和长期资金仍未系统接入，不上调标签。",
       "macro_availability": "宏观从快照升级为解释层，used_in_scoring=false，只解释环境，不改变候选池结论。",
-      "next_step": "先复核 V6.8A 数据层状态：金融/周期模型待补项、弱资金信号来源和候选池复盘基线；任何入库或评分调整需另行批准。"
+      "next_step": "先用快捷筛选查看待复核深研候选和仅适合跟踪名单，再复核金融/周期模型待补项、弱资金信号来源和候选池复盘基线；任何入库或评分调整需另行批准。"
     },
     "notes": [
       "低 PE、低 PB、高股息只代表机械便宜线索，不等于安全边际。",
@@ -72,7 +72,7 @@
     "industry_model_pending": 156,
     "thunder_review": 142,
     "reviewable_rate": 7.6,
-    "smart_money_status": "V6.8A 弱信号展示/未入评分",
+    "smart_money_status": "V6.8B 弱信号展示/未入评分",
     "macro_status": "解释层已接入，仅展示",
     "sqlite_readonly": true,
     "tushare_policy": "Tushare 优先；web fallback 未使用",
@@ -42789,7 +42789,7 @@
     "排雷待复核": "ROE偏低、价值陷阱、增长/现金流阻塞项先进入排雷，不包装成待补字段。",
     "待复核深研候选": "机械粗筛较靠前，但仍缺单股报告、历史估值分位、现金流桥和资金信号复核。",
     "宽基ETF": "宽基 ETF 是被动配置和流动性信号，不代表主动基金经理认可。",
-    "V6.8A 数据层": "本版新增 smart money 弱信号、金融专属模型提示、周期归一化估值展示和候选池复盘基线，全部 used_in_scoring=false。"
+    "V6.8B 使用提示": "本版只优化候选池筛选体验：基础筛选默认可见，PE/PB/股息率/ROE/FCF收益率/市值区间进入高级筛选；快捷按钮只改变当前筛选结果，不改变评分或标签。"
   },
   "disclaimer": "本报告不构成买入建议。粗筛只是观察池；进入深研前必须做单股 HTML 报告，复核商业模式、估值分位、现金流桥、风险和买入纪律。",
   "column_labels": {
